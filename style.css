@@ -1,0 +1,175 @@
+body{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)),  
+    url(/source/background.jpg);
+  
+    background-size: 100%;
+    height: 950px;
+    overflow-y: auto;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #030342;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #000;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+h1{
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-size: 46px;
+  letter-spacing: 4px;
+  text-align: right;
+  z-index: 1;
+}
+
+#sun, #mercury, #venus, #earth, #mars, #jupiter, #saturn, #uran, #neptune{
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+#sun{
+  width: 196px;
+  height: 177px;
+  background: url(/source/Sun.png);
+
+  left: calc(50% - 99px);
+  top: 410px;
+}
+
+#mercury{
+  width: 43px;
+  height: 40px;
+  background: url(/source/Mercury.png);
+
+  left: -20px;
+}
+
+#venus{
+  width: 95px;
+  height: 95px;
+  background: url(/source/Venus.png);
+
+  left: -35px;
+  top: 70px;
+}
+
+#earth{
+  width: 85px;
+  height: 83px;
+  background: url(/source/Earth.png);
+
+  right: -38px;
+}
+
+#mars{
+  width: 65px;
+  height: 68px;
+  background: url(/source/Mars.png);
+  bottom: -30px;
+}
+
+#jupiter{
+  width: 116px;
+  height: 115px;
+  background: url(/source/Jupiter.png);
+
+  top: -60px;
+}
+
+#saturn{
+  width: 125px;
+  height: 135px;
+  background: url(/source/Saturn.png);
+
+  left: -60px;
+}
+
+#uran{
+  width: 82px;
+  height: 78px;
+  background: url(/source/Uranus.png);
+
+  top: 70px;
+  left: 190px;
+}
+
+#neptune{
+  width: 78px;
+  height: 78px;
+  background: url(/source/Neptune.png);
+
+  top: 0px;
+  right: 390px;
+}
+
+.orbit{
+  border: 1px solid;
+  border-color: #fff;
+  border-radius: 50%;
+}
+
+#orbitMercury, #orbitVenus, #orbitEarth, #orbitMars, #orbitJupiter, #orbitSaturn, #orbitUranus, #orbitNeptune{
+  position: absolute;
+}
+
+#orbitMercury{
+  left: calc(50% - 170px);
+  top: 370px;
+  padding: 130px 170px;
+}
+
+#orbitVenus{
+  left: calc(50% - 240px);
+  top: 320px;
+  padding: 180px 240px;
+}
+
+#orbitEarth{
+  left: calc(50% - 310px);
+  top: 280px;
+  padding: 220px 310px;
+}
+
+#orbitMars{
+  left: calc(50% - 395px);
+  top: 230px;
+  padding: 270px 400px;
+}
+
+#orbitJupiter{
+  left: calc(50% - 460px);
+  top: 170px;
+  padding: 330px 470px;
+}
+
+#orbitSaturn{
+  left: calc(50% - 520px);
+  top: 100px;
+  padding: 400px 540px;
+}
+
+#orbitUranus{
+  left: calc(50% - 630px);
+  top: 30px;
+  padding: 470px 640px;
+}
+
+#orbitNeptune{
+  left: calc(50% - 710px);
+  top: -30px;
+  padding: 540px 720px;
+}
