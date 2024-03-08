@@ -117,6 +117,11 @@
    }
 
    @keyframes test{
-    from {transform: translate(0px) scaleY(0.75)}
-    to { transform: translate(-745px, -100px) scale(2) scaleY(0.75)}
+    from {transform: scale(1) translate(px) scaleY(0.75) }
+    to { transform:scale(3) translate(-500px, -50px) scale(2) scaleY(0.75)}
+   }
+
+   @keyframes info {
+    from {transform: translate(0px) }
+    to { transform: translate(100px, -100px) scale(2)}
    }

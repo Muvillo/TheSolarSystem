@@ -91,12 +91,13 @@ h2{
   text-align: right;
 }
 
-h1, h2, .namePlanet{
+h1, h2, .namePlanet, .info, .closeBtn{
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 100;
   z-index: 1;
   letter-spacing: 4px;
+  line-height: 30px;
 }
 
 #sun, #mercury, #venus, #earth, #mars, #jupiter, #saturn, #uran, #neptune{
@@ -285,9 +286,25 @@ h1, h2, .namePlanet{
 
 .info{
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 100px;
-  height: 100px;
-  background-color: #000;
+  left: 220px;
+  top: 100px;
+  width: 1000px;
+  height: 500px;
+  background-color:  rgba(0, 0, 0, 0.6);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  font-size: 30px;
+
+  z-index: 9;
+}
+
+.text{
+  margin: 70px 30px;
+}
+
+.closeBtn{
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  cursor: pointer;
 }

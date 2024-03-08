@@ -1,5 +1,13 @@
 let orbit = document.getElementsByClassName('.orbit');
 let div
+let infoText
+let info = document.createElement('div');
+let text = document.createElement('p');
+let closeBtn = document.createElement('span')
+closeBtn.innerHTML = "✖";
+info.className = "info";
+text.className = "text";
+closeBtn.className = "closeBtn";
 
 function ChangeOver(name){
     div = document.createElement('div');
@@ -10,6 +18,19 @@ function ChangeOver(name){
 
 function ChangeOut(){
     div.remove();
+}
+
+function setTeg(){
+    text.innerHTML = infoText.innerHTML;
+    document.body.append(info);
+    info.append(closeBtn);
+    info.append(text); 
+}
+
+function closeTeg(){
+    closeBtn.addEventListener('click', function(){
+        info.remove();
+    })
 }
 
 document.getElementById('btn').addEventListener('click', function(){
@@ -45,7 +66,65 @@ document.getElementById('btn').addEventListener('click', function(){
 
   })
 
-document.getElementById('mercury').addEventListener('click', function(){
-    document.getElementById('mercury').style.animation = 'test 4s linear 1 forwards';
-    
+document.getElementById('orbitMercury').addEventListener('click', function(){
+    infoText = document.getElementById('infoMercury');
+
+    setTeg(); 
+    closeTeg();
+})
+
+document.getElementById('orbitVenus').addEventListener('click', function(){
+    infoText = document.getElementById('infoVenus');
+
+    setTeg(); 
+    closeTeg();
+})
+
+document.getElementById('orbitEarth').addEventListener('click', function(){
+    infoText = document.getElementById('infoEarth');
+
+    setTeg(); 
+    closeTeg();
+})
+
+document.getElementById('orbitMars').addEventListener('click', function(){
+    infoText = document.getElementById('infoMars');
+
+    setTeg(); 
+    closeTeg();
+})
+
+document.getElementById('orbitJupiter').addEventListener('click', function(){
+    infoText = document.getElementById('infoJupiter');
+
+    setTeg(); 
+    closeTeg();
+})
+
+document.getElementById('orbitSaturn').addEventListener('click', function(){
+    infoText = document.getElementById('infoSaturn');
+
+    setTeg(); 
+    closeTeg();
+})
+
+document.getElementById('orbitUranus').addEventListener('click', function(){
+    infoText = document.getElementById('infoUranus');
+
+    setTeg(); 
+    closeTeg();
+})
+
+document.getElementById('orbitNeptune').addEventListener('click', function(){
+    infoText = document.getElementById('infoNeptune');
+
+    setTeg(); 
+    closeTeg();
+})
+
+document.getElementById('sun').addEventListener('click', function(){
+    infoText = document.getElementById('infoSun');
+
+    setTeg(); 
+    closeTeg();
 })
