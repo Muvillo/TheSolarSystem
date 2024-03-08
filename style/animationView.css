@@ -1,0 +1,122 @@
+.sun-transform {
+    animation: sun-transform 1s linear 1 forwards;
+  }
+  
+  @keyframes sun-transform {
+    from {transform: translate(0px) }
+    to { transform: translate(-790px, -100px) scale(2) }
+   }
+  
+   .mercury-transform {
+    animation: mercury-transform 1.1s linear 1 forwards;
+  }
+  
+  .mercuryView{
+    margin-left: 160px;
+  }
+  
+  @keyframes mercury-transform {
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-860px, -100px) scale(2) scaleY(0.75)}
+   }
+
+   .venus-transform {
+    animation: venus-transform 1.2s linear 1 forwards;
+  }
+  
+  .venusView{
+    margin-left: 230px;
+  }
+  
+  @keyframes venus-transform {
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-860px, -100px) scale(2) scaleY(0.75)}
+   }
+
+   .earth-transform {
+    animation: earth-transform 1.3s linear 1 forwards;
+  }
+  
+  .earthView{
+    margin-left: 300px;
+  }
+  
+  @keyframes earth-transform {
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-820px, -100px) scale(2) scaleY(0.75)}
+   }
+
+   .mars-transform {
+    animation: mars-transform 1.4s linear 1 forwards;
+  }
+  
+  .marsView{
+    margin-left: 380px;
+  }
+  
+  @keyframes mars-transform {
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-820px, -100px) scale(2) scaleY(0.75)}
+   }
+
+   .jupiter-transform {
+    animation: jupiter-transform 1.5s linear 1 forwards;
+  }
+  
+  .jupiterView{
+    margin-left: 450px;
+  }
+  
+  @keyframes jupiter-transform {
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-770px, -100px) scale(2) scaleY(0.75)}
+   }
+
+   .saturn-transform {
+    animation: saturn-transform 1.6s linear 1 forwards;
+  }
+  
+  .saturnView{
+    margin-left: 540px;
+  }
+  
+  @keyframes saturn-transform {
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-730px, -100px) scale(2) scaleY(0.75)}
+   }
+
+   .uran-transform {
+    animation: uran-transform 1.7s linear 1 forwards;
+  }
+  
+  .uranView{
+    margin-left: 620px;
+  }
+  
+  @keyframes uran-transform {
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-710px, -100px) scale(2) scaleY(0.75)}
+   }
+
+   .neptune-transform {
+    animation: neptune-transform 1.8s linear 1 forwards;
+  }
+
+  .neptuneView{
+    margin-left: 720px;
+  }
+  
+  @keyframes neptune-transform {
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-745px, -100px) scale(2) scaleY(0.75)}
+   }
+
+   @keyframes rotate{
+    from { transform: rotate(0deg)  translate(0px) }
+    to { transform: rotate(360deg) translate(0px) }
+   }
+
+   @keyframes test{
+    from {transform: translate(0px) scaleY(0.75)}
+    to { transform: translate(-745px, -100px) scale(2) scaleY(0.75)}
+   }

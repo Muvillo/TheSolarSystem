@@ -3,46 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Animations</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/animationView.css">
   </head>
   <body>
     <main>
       <h1>Солнечная <br> система</h1>
-      <span id="sun"></span>
+      <h2 id="btn">Планеты</h2>
+      <span id="sun" onmouseover="ChangeOver('Солнце')" onmouseout="ChangeOut()"></span>
 
       
-      <div id="orbitMercury" class="orbit">
-        <div id="mercury"></div>
+      <div id="orbitMercury" class="orbit" onmouseover="ChangeOver('Меркурий')" onmouseout="ChangeOut()">
+        <div id="mercury" class="mercury"></div>
       </div>
 
-      <div id="orbitVenus" class="orbit">
+      <div id="orbitVenus" class="orbit" onmouseover="ChangeOver('Венера')" onmouseout="ChangeOut()">
         <div id="venus"></div>
       </div>
 
-      <div id="orbitEarth" class="orbit">
+      <div id="orbitEarth" class="orbit" onmouseover="ChangeOver('Земля')" onmouseout="ChangeOut()">
         <div id="earth"></div>
       </div>
 
-      <div id="orbitMars" class="orbit">
+      <div id="orbitMars" class="orbit" onmouseover="ChangeOver('Марс')" onmouseout="ChangeOut()">
         <div id="mars"></div>
       </div>
 
-      <div id="orbitJupiter" class="orbit">
+      <div id="orbitJupiter" class="orbit" onmouseover="ChangeOver('Юпитер')" onmouseout="ChangeOut()">
         <div id="jupiter"></div>
       </div>
 
-      <div id="orbitSaturn" class="orbit">
+      <div id="orbitSaturn" class="orbit" onmouseover="ChangeOver('Сатурн')" onmouseout="ChangeOut()">
         <div id="saturn"></div>
       </div>
 
-      <div id="orbitUranus" class="orbit">
+      <div id="orbitUranus" class="orbit" onmouseover="ChangeOver('Уран')" onmouseout="ChangeOut()">
         <div id="uran"></div>
       </div>
 
-      <div id="orbitNeptune" class="orbit">
-        <div id="neptune"></div>
+      <div id="orbitNeptune" class="orbit" onmouseover="ChangeOver('Нептун')" onmouseout="ChangeOut()">
+        <div id="neptune" ></div>
       </div>
     </main>
-
+    <script src="/script.js"></script>
   </body>
 </html>
