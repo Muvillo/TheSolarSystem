@@ -108,7 +108,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #sun{
   width: 196px;
   height: 177px;
-  background: url(/source/Sun.png);
+  background: url(source/Sun.png);
   z-index: 8;
   transition: 0.5s;
   left: calc(50% - 99px);
@@ -126,7 +126,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #mercury{
   width: 43px;
   height: 40px;
-  background: url(/source/Mercury.png);
+  background: url(source/Mercury.png);
   left: 138.5px;
   top: 140px;
   animation: orbitMercury 2s linear infinite;
@@ -137,7 +137,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #venus{
   width: 95px;
   height: 95px;
-  background: url(/source/Venus.png);
+  background: url(source/Venus.png);
   left: 182.5px;
   top: 182.5px;
   background-size: 100%;
@@ -148,7 +148,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #earth{
   width: 85px;
   height: 83px;
-  background: url(/source/Earth.png);
+  background: url(source/Earth.png);
   left: 257.5px;
   top: 258.5px;
   background-size: 100%;
@@ -159,7 +159,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #mars{
   width: 65px;
   height: 68px;
-  background: url(/source/Mars.png);
+  background: url(source/Mars.png);
   left: 347.5px;
   top: 346px;
   background-size: 100%;
@@ -171,7 +171,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #jupiter{
   width: 116px;
   height: 115px;
-  background: url(/source/Jupiter.png);
+  background: url(source/Jupiter.png);
   left: 392px;
   top: 392.5px;
   background-size: 100%;
@@ -183,7 +183,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #saturn{
   width: 125px;
   height: 135px;
-  background: url(/source/Saturn.png);
+  background: url(source/Saturn.png);
   left: 477.5px;
   top: 472.5px;
   background-size: 100%;
@@ -194,7 +194,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #uran{
   height: 78px;
   width: 82px;
-  background: url(/source/Uranus.png);
+  background: url(source/Uranus.png);
   left: 584px;
   top: 586px;
   background-size: 100%;
@@ -205,7 +205,7 @@ h1, h2, .namePlanet, .info, .closeBtn{
 #neptune{
   width: 78px;
   height: 78px;
-  background: url(/source/Neptune.png);
+  background: url(source/Neptune.png);
   left: 681px;
   top: 681px;
   background-size: 100%;
