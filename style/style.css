@@ -113,6 +113,9 @@ h1, h2, .namePlanet, .info, .closeBtn{
   transition: 0.5s;
   left: calc(50% - 99px);
   top: 410px;
+
+  background-size: 100%;
+
 }
 
 #sun:hover{
@@ -126,7 +129,9 @@ h1, h2, .namePlanet, .info, .closeBtn{
   background: url(/source/Mercury.png);
   left: 138.5px;
   top: 140px;
-  animation: orbitMercury 2s linear infinite
+  animation: orbitMercury 2s linear infinite;
+
+  background-size: 100%;
 }
 
 #venus{
@@ -135,6 +140,8 @@ h1, h2, .namePlanet, .info, .closeBtn{
   background: url(/source/Venus.png);
   left: 182.5px;
   top: 182.5px;
+  background-size: 100%;
+
   animation: orbitVenus 3s linear infinite
 }
 
@@ -144,6 +151,8 @@ h1, h2, .namePlanet, .info, .closeBtn{
   background: url(/source/Earth.png);
   left: 257.5px;
   top: 258.5px;
+  background-size: 100%;
+
   animation: orbitEarth 5s linear infinite
 }
 
@@ -153,6 +162,8 @@ h1, h2, .namePlanet, .info, .closeBtn{
   background: url(/source/Mars.png);
   left: 347.5px;
   top: 346px;
+  background-size: 100%;
+
   animation: orbitMars 10s linear infinite
 
 }
@@ -163,6 +174,8 @@ h1, h2, .namePlanet, .info, .closeBtn{
   background: url(/source/Jupiter.png);
   left: 392px;
   top: 392.5px;
+  background-size: 100%;
+
   animation: orbitJupiter 14s linear infinite
 
 }
@@ -173,6 +186,8 @@ h1, h2, .namePlanet, .info, .closeBtn{
   background: url(/source/Saturn.png);
   left: 477.5px;
   top: 472.5px;
+  background-size: 100%;
+
   animation: orbitSaturn 16s linear infinite
 }
 
@@ -182,6 +197,8 @@ h1, h2, .namePlanet, .info, .closeBtn{
   background: url(/source/Uranus.png);
   left: 584px;
   top: 586px;
+  background-size: 100%;
+
   animation: orbitUran 18s linear infinite
 }
 
@@ -191,6 +208,8 @@ h1, h2, .namePlanet, .info, .closeBtn{
   background: url(/source/Neptune.png);
   left: 681px;
   top: 681px;
+  background-size: 100%;
+
   animation: orbitNeptune 20s linear infinite
 }
 
